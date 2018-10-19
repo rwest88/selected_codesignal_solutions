@@ -1,0 +1,1 @@
+isMAC48Address = s => s.split("-").every(e => e.length == 2 && e.split('').every(f => /[a-fA-F0-9]+$/.test(f)))

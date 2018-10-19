@@ -1,0 +1,1 @@
+firstNotRepeatingCharacter = s => s.split('').find(e => s.indexOf(e) == s.lastIndexOf(e)) || '_'
